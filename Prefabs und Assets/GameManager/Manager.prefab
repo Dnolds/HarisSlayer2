@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4208747995263022141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4208747995263022143}
+  - component: {fileID: 4208747995263022140}
+  - component: {fileID: 4208747995263022142}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: SoundManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4208747995263022143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4208747995263022141}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 542.29767, y: 392.61783, z: -112.9375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4208747995263022140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4208747995263022141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43ca06fab72532a4cabf47a9b8ea6514, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameOverPanel: {fileID: 0}
+  mixer: {fileID: 24100000, guid: 306ac5dd399602940b8bc1890fcf8432, type: 2}
+  controlerPanel: {fileID: 0}
+  creditsPanel: {fileID: 0}
+  pauseMenu: {fileID: 0}
+  settings: {fileID: 0}
+  MasterVolumeSlider: {fileID: 0}
+  SoundVolumeSlider: {fileID: 0}
+  MusicVolumeSlider: {fileID: 0}
+--- !u!114 &4208747995263022142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4208747995263022141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cb49e59634bf9840b5e972df7609ffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: {fileID: 0}
+  Desc: {fileID: 0}
+  HarisPrefab: {fileID: 6984400172529928634, guid: 0686272b6de40784f96ae8a683369247,
+    type: 3}
+  Spawnpoint1: {fileID: 0}
+  Spawnpoint2: {fileID: 0}
+  Spawnpoint3: {fileID: 0}
+  Spawnpoint4: {fileID: 0}
+  Spawnpoint5: {fileID: 0}
+  Spawnpoint6: {fileID: 0}
+  currentRound: 0
